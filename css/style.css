@@ -238,14 +238,8 @@ p {
 #skill_part .container .icons{
     padding: 82px 0;
     gap: 80px;
+    justify-content: space-between;
     flex-wrap: wrap;
-}
-
-#skill_part .child h3 {
-    color: var(--headingColour);
-    font-size: 25px;
-    font-weight: 700;
-    margin: 40px 0 20px;
 }
 
 #skill_part .child p {

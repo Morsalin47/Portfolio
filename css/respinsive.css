@@ -79,180 +79,136 @@
         bottom: 30px;
     }
     /*=================================== bannar_part end===============================================*/
-    /*================================== success_part start ============================================*/
-    #success_part {
-        margin: 70px 0;
+    /*================================== about_part start ============================================*/
+    #about_part {
+        margin: 0 0;
         padding: 0 12px;
     }
     
-    #success_part .row .left h3 {
+    #about_part .tittle {
+        padding-top: 20px;
+    }
+
+    #about_part .row .left h3 {
         font-size: 18px;
     }
     
-    #success_part .row .left h2 {
+    #about_part .tittle {
+        margin-bottom: 4px;
+    }
+
+    #about_part .row {
+        padding: 10px 0px;
+        border-radius: 10px;
+    }
+
+    #about_part .row .left h2 {
         font-size: 25px;
     }
     
-    #success_part .row .right  {
+    #about_part .row .right  {
         flex-direction: column;
     }
     
-    #success_part .row .right h2 {
+    #about_part .row .right h2 {
         font-size: 30px;
         margin-top: 15px;
         margin-bottom: 10px;
     }
     
-    #success_part .row .right .child {
+    #about_part .row .right .child {
         text-align: center;
     }
     
-    #success_part .row {
-        padding: 40px 30px;
+    #about_part .row {
+        padding: 0px 10px;
         border-radius: 10px;
     }
     
+    #about_part .row .left img {
+        max-width: 325px;
+    }
+
     /*================================== success_part end ==============================================*/
-    /*================================== service_part start ============================================*/
-    #service_part .tittle h2 {
-        font-size: 24px;
+    /*================================== skill_part start ============================================*/
+    #skill_part .tittle h2 {
+        font-size: 14px;
     }
     
-    #service_part .tittle p {
+    #skill_part .tittle p {
         font-size: 14px;
         line-height: 22px;
     }
-    
-    #service_part .child {
-        padding: 40px 20px 30px;
-        -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.25);
-        -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.25);
-        box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.25);
+    #skill_part .container .icons {
+        padding: 40px 0;
+        gap: 50px;
     }
-    
-    #service_part .child h3 {
+
+    #skill_part .icons img{
+        margin: 0 10px;
+    }
+
+    #skill_part .child h3 {
         font-size: 20px;
     }
     
-    #service_part .child p {
+    #skill_part .child p {
         font-size: 14px;
         line-height: 20px;
     }
     
 
     /*================================== service_part end ==============================================*/
-    /*================================== recent_part start ============================================*/
-    #recent_part {
+    /*================================== Experience_part start ============================================*/
+    #experience_part {
         padding: 60px 0;
     }
     
-    #recent_part .tittle h2 {
-        font-size: 25px;
+    #experience_part .tittle h2 {
+        font-size: 14px;
     }
     
-    #recent_part .child {
+    #experience_part .child {
         border-radius: 10px;
     }
     
     
-    #recent_part .tittle p {
+    #experience_part .tittle p {
         font-size: 14px;
         line-height: 21px;
     }
     
-    #recent_part .tittle p {
+    #experience_part .tittle p {
         margin-bottom: 50px;
     }
-    
-    #recent_part .child img {
-        height: 200px;
-        border-radius: 10px;
+
+    #experience_part .work {
+        margin: 10px 0px;
+        padding: 15px;
     }
-    
-    #recent_part .child h3 {
-        font-size: 17px;
+
+    #experience_part .work img {
+        height: 12px;
     }
-    
-    #recent_part .child p {
+
+    #experience_part .work ul{
+        font-size: 16px;
+    }
+
+    #experience_part .work .date{
         font-size: 14px;
-        line-height: 20px;
     }
-    
-    /*================================== recent_part end ==============================================*/
-    /*================================== agance_part start ============================================*/
-    #agance_part {
-        padding-top: 50px;
-        margin-bottom: 60px;
-    }
-    
-    #agance_part .tittle {
-        margin-bottom: 40px;
-    }
-    
-    #agance_part .tittle h2 {
-        font-size: 26px;
-    }
-    
-    #agance_part .tittle p {
-        font-size: 14px;
-        line-height: 22px;
-    }
-    
-    #agance_part .main .parent .row {
-        row-gap: 20px;
-    }
-    
-    #agance_part .child h3 {
-        margin: 10px 0 5px;
-        font-size: 17px;
-        color: white;
-    }
-    
-    #agance_part .child p {
-        font-size: 12px;
-        line-height: 20px;
-        color: #cecece;
-    }
-    
-    #agance_part .main .parent{
-        background: url(../images/agance03.jpg);
-        position: relative;
-        z-index: 1;
-    }
-    
-    #agance_part .main .parent::after{
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.7);
-        z-index: -1;
-    }
-    
-    #agance_part .main .parent .child {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-    }
-    
-    #agance_part .main .parent .col-lg-6:nth-child(even) .child {
-        flex-direction: row-reverse;
-    }
-    
-    #agance_part .main .parent .col-lg-6:nth-child(even) .child .text{
-        text-align: right;
-    }
-    
-    #agance_part .main .team {
-        display: none;
-    }
-    
-    /*================================== agance_part end ==============================================*/
+
+    /*================================== Experience end ==============================================*/
     /*================================== review_part start ============================================*/
+    
+    #review_part .tittle {
+        margin-bottom: 10px;
+        padding-top: 50px;
+    }
+
     #review_part .tittle h2 {
-        font-size: 25px;
+        font-size: 14px;
     }
     
     #review_part .tittle p {
@@ -260,6 +216,14 @@
         line-height: 20px;
     }
     
+    #review_part .main {
+        padding-top: 35px;
+    }
+
+    #review_part .reviewslider {
+        padding-bottom: 60px;
+    }
+
     #review_part .reviewslider .slide {
         padding: 41px 30px;
     }
@@ -279,12 +243,12 @@
         position: absolute;
         left: 10% !important;
         top: 100%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -125%);
         width: 40px;
         height: 40px;
         background: var(--white);
-        border: 1px solid #f4efef;
-        color: #f4efef;
+        border: 1px solid #030712;
+        color: #030712;
         z-index: 999;
         display: flex;
         justify-content: center;
@@ -296,12 +260,12 @@
         position: absolute;
         right: 5%;
         top: 100%;
-        transform: translateY(-50%);
+        transform: translateY(-125%);
         width: 40px;
         height: 40px;
         background: var(--white);
-        border: 1px solid #f4efef;
-        color: #f4efef;
+        border: 1px solid #030712;
+        color: #030712;
         z-index: 999;
         display: flex;
         justify-content: center;
@@ -310,57 +274,14 @@
     }
     
     /*================================== review_part end ==============================================*/
-    /*================================== form_part start ============================================*/
-    #form_part {
-        margin: 70px 0 70px;
-        padding: 60px 0 70px;
-    }
-    
-    #form_part .tittle h2 {
-        font-size: 25px;
-    }
-    
-    #form_part .tittle p {  
-        font-size: 14px;
-        line-height: 20px;
-        margin: 5px 0 0;
-    }
-    
-    #form_part form {
-        background: #ffffff;
-        display: flex;
-        flex-direction: column;
-        padding: 30px 20px;
-        border-radius: 10px;
-    }
-    
-    #form_part form input {
-        padding: 10px 15px;
-        margin: 5px 0 15px;
-    }
-    
-    #form_part form label {
-        font-size: 14px;
-        line-height: 20px;
-    }
-    
-    #form_part form .customBtn {
-        padding: 10px 0;
-        margin-top: 0;
-        border-radius: 4px;
-        font-size: 14px;
-        line-height: 20px;
-    }
-    
-    /*================================== form_part end ==============================================*/
     /*================================== footer_part start ============================================*/
     .container .row{
         row-gap: 20px;
     }
     
-    footer .footerLeft p {
-        margin-top: 10px;
-        font-size: 14px;
+    footer .text p {
+        padding: 20px 40px;
+        font-size: 16px;
         line-height: 20px;
     }
 
@@ -369,19 +290,23 @@
         justify-content: start;
     }
 
-    footer .footerRight ul h3 {
+    footer .mail h2{
         font-size: 16px;
-        margin-bottom: 10px;
     }
 
-    footer .footerRight ul li a {
-        font-size: 12px;
+    footer .Contact h2{
+        font-size: 22px;
+    }
+
+    footer .copy_part {
+        font-size: 10px;
         line-height: 20px;
+        padding: 10px 0;
+        margin-top: 25px;
     }
 
     /*================================== footer_part end ==============================================*/
-    
-    
+     
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
@@ -465,107 +390,115 @@
         bottom: 30px;
     }
     /*=================================== bannar_part end===============================================*/
-    /*================================== success_part start ============================================*/
-    #success_part {
-        margin: 70px 0;
+    /*================================== about_part start ============================================*/
+    #about_part {
+        margin: 0 0;
         padding: 0 12px;
     }
     
-    #success_part .row .left h3 {
+    #about_part .tittle {
+        padding-top: 20px;
+    }
+
+    #about_part .row .left h3 {
         font-size: 18px;
     }
     
-    #success_part .row .left h2 {
+    #about_part .row .left h2 {
         font-size: 25px;
     }
     
-    #success_part .row .right  {
+    #about_part .row .right  {
         flex-direction: row;
         gap: 20px;
     }
     
-    #success_part .row .right h2 {
+    #about_part .row .right h2 {
         font-size: 30px;
         margin-top: 15px;
         margin-bottom: 10px;
     }
     
-    #success_part .row .right .child {
+    #about_part .row .right .child {
         text-align: center;
     }
     
-    #success_part .row {
+    #about_part .row {
         padding: 40px 30px;
         border-radius: 10px;
     }
     
     /*================================== success_part end ==============================================*/
     /*================================== service_part start ============================================*/
-    #service_part .tittle h2 {
+    #skill_part .tittle h2 {
         font-size: 24px;
     }
     
-    #service_part .tittle p {
+    #skill_part .tittle p {
         font-size: 14px;
         line-height: 22px;
     }
     
-    #service_part .child {
+    #skill_part .child {
         padding: 40px 20px 30px;
         -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.25);
         -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.25);
         box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.25);
     }
     
-    #service_part .child h3 {
+    #skill_part .child h3 {
         font-size: 20px;
     }
     
-    #service_part .child p {
+    #skill_part .child p {
         font-size: 14px;
         line-height: 20px;
     }
     
 
     /*================================== service_part end ==============================================*/
-    /*================================== recent_part start ============================================*/
-    #recent_part {
+    /*================================== experience_part start ============================================*/
+    #experience_part {
         padding: 60px 0;
     }
     
-    #recent_part .tittle h2 {
+    #experience_part .work {
+        margin: 48px 0px;
+    }
+
+    #experience_part .tittle h2 {
         font-size: 25px;
     }
     
-    #recent_part .child {
+    #experience_part .child {
         border-radius: 10px;
     }
     
     
-    #recent_part .tittle p {
+    #experience_part .tittle p {
         font-size: 14px;
         line-height: 21px;
     }
     
-    #recent_part .tittle p {
+    #experience_part .tittle p {
         margin-bottom: 50px;
     }
     
-    #recent_part .child img {
+    #experience_part .child img {
         height: 200px;
         border-radius: 10px;
     }
     
-    #recent_part .child h3 {
+    #experience_part .child h3 {
         font-size: 17px;
     }
     
-    #recent_part .child p {
+    #experience_part .child p {
         font-size: 14px;
         line-height: 20px;
     }
     
-    /*================================== recent_part end ==============================================*/
+    /*================================== experience_part end ==============================================*/
     /*================================== agance_part start ============================================*/
     #agance_part {
         padding-top: 50px;
@@ -639,7 +572,7 @@
     /*================================== agance_part end ==============================================*/
     /*================================== review_part start ============================================*/
     #review_part .tittle h2 {
-        font-size: 25px;
+        font-size: 14px;
     }
     
     #review_part .tittle p {
@@ -647,9 +580,18 @@
         line-height: 20px;
     }
     
+    #review_part .tittle {
+        margin-bottom: 16px;
+        padding-top: 40px;
+    }
+
+    #review_part .main {
+        padding-top: 35px;
+    }
+
     #review_part .reviewslider .slide {
         padding: 41px 30px;
-        background: #F4EFEF;
+        background: #030712;
 
     }
 
@@ -668,12 +610,12 @@
         position: absolute;
         left: 10% !important;
         top: 100%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -200%);
         width: 40px;
         height: 40px;
         background: var(--white);
-        border: 1px solid #f4efef;
-        color: #f4efef;
+        border: 1px solid #030712;
+        color: #030712;
         z-index: 999;
         display: flex;
         justify-content: center;
@@ -685,12 +627,12 @@
         position: absolute;
         right: 5%;
         top: 100%;
-        transform: translateY(-50%);
+        transform: translateY(-200%);
         width: 40px;
         height: 40px;
         background: var(--white);
-        border: 1px solid #f4efef;
-        color: #f4efef;
+        border: 1px solid #030712;
+        color: #030712;
         z-index: 999;
         display: flex;
         justify-content: center;
@@ -699,75 +641,26 @@
     }
     
     /*================================== review_part end ==============================================*/
-    /*================================== form_part start ============================================*/
-    #form_part {
-        margin: 70px 0 70px;
-        padding: 60px 0 70px;
-    }
-    
-    #form_part .tittle h2 {
-        font-size: 25px;
-    }
-    
-    #form_part .tittle p {  
-        font-size: 14px;
-        line-height: 20px;
-        margin: 5px 0 0;
-    }
-    
-    #form_part form {
-        background: #ffffff;
-        display: flex;
-        flex-direction: column;
-        padding: 30px 20px;
-        border-radius: 10px;
-    }
-    
-    #form_part form input {
-        padding: 10px 15px;
-        margin: 5px 0 15px;
-    }
-    
-    #form_part form label {
-        font-size: 14px;
-        line-height: 20px;
-    }
-    
-    #form_part form .customBtn {
-        padding: 10px 0;
-        margin-top: 0;
-        border-radius: 4px;
-        font-size: 14px;
-        line-height: 20px;
-    }
-    
-    /*================================== form_part end ==============================================*/
     /*================================== footer_part start ============================================*/
     .container .row{
         row-gap: 20px;
     }
     
-    footer .footerLeft p {
-        margin-top: 10px;
+    footer .text p {
+        padding: 25px 50px;
         font-size: 14px;
         line-height: 20px;
     }
 
-    footer .footerRight {
-        gap: 0px;
-        justify-content: start;
-    }
-
-    footer .footerRight ul h3 {
-        font-size: 16px;
-        margin-bottom: 10px;
-    }
-
-    footer .footerRight ul li a {
+    footer .copy_part {
+        border-top: 1px solid #E8E8E8;
         font-size: 12px;
         line-height: 20px;
+        color: #d0d0d0;
+        text-align: center;
+        padding: 19px 0;
+        margin-top: 25px;
     }
-
     /*================================== footer_part end ==============================================*/
        
 }
@@ -853,107 +746,115 @@
         bottom: 30px;
     }
     /*=================================== bannar_part end===============================================*/
-    /*================================== success_part start ============================================*/
-    #success_part {
-        margin: 70px 0;
+    /*================================== about_part start ============================================*/
+    #about_part {
+        margin: 0 0;
         padding: 0 12px;
     }
-    
-    #success_part .row .left h3 {
+
+    #about_part .tittle {
+        padding-top: 20px;
+    }
+
+    #about_part .row .left h3 {
         font-size: 18px;
     }
     
-    #success_part .row .left h2 {
+    #about_part .row .left h2 {
         font-size: 25px;
     }
     
-    #success_part .row .right  {
+    #about_part .row .right  {
         flex-direction: row;
         gap: 20px;
     }
     
-    #success_part .row .right h2 {
+    #about_part .row .right h2 {
         font-size: 30px;
         margin-top: 15px;
         margin-bottom: 10px;
     }
     
-    #success_part .row .right .child {
+    #about_part .row .right .child {
         text-align: center;
     }
     
-    #success_part .row {
+    #about_part .row {
         padding: 40px 30px;
         border-radius: 10px;
     }
     
     /*================================== success_part end ==============================================*/
     /*================================== service_part start ============================================*/
-    #service_part .tittle h2 {
+    #skill_part .tittle h2 {
         font-size: 24px;
     }
     
-    #service_part .tittle p {
+    #skill_part .tittle p {
         font-size: 14px;
         line-height: 22px;
     }
     
-    #service_part .child {
+    #skill_part .child {
         padding: 40px 20px 30px;
         -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.25);
         -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.25);
         box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.25);
     }
     
-    #service_part .child h3 {
+    #skill_part .child h3 {
         font-size: 20px;
     }
     
-    #service_part .child p {
+    #skill_part .child p {
         font-size: 14px;
         line-height: 20px;
     }
     
 
     /*================================== service_part end ==============================================*/
-    /*================================== recent_part start ============================================*/
-    #recent_part {
+    /*================================== experience_part start ============================================*/
+    #experience_part {
         padding: 60px 0;
     }
     
-    #recent_part .tittle h2 {
+    #experience_part .work {
+        margin: 48px 0px !important;
+    }
+
+    #experience_part .tittle h2 {
         font-size: 25px;
     }
     
-    #recent_part .child {
+    #experience_part .child {
         border-radius: 10px;
     }
     
     
-    #recent_part .tittle p {
+    #experience_part .tittle p {
         font-size: 14px;
         line-height: 21px;
     }
     
-    #recent_part .tittle p {
+    #experience_part .tittle p {
         margin-bottom: 50px;
     }
     
-    #recent_part .child img {
+    #experience_part .child img {
         height: 200px;
         border-radius: 10px;
     }
     
-    #recent_part .child h3 {
+    #experience_part .child h3 {
         font-size: 17px;
     }
     
-    #recent_part .child p {
+    #experience_part .child p {
         font-size: 14px;
         line-height: 20px;
     }
     
-    /*================================== recent_part end ==============================================*/
+    /*================================== experience_part end ==============================================*/
     /*================================== agance_part start ============================================*/
     #agance_part {
         padding-top: 50px;
@@ -1055,12 +956,12 @@
         position: absolute;
         left: 10% !important;
         top: 100%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -200%);
         width: 40px;
         height: 40px;
         background: var(--white);
-        border: 1px solid #f4efef;
-        color: #f4efef;
+        border: 1px solid #030712;
+        color: #030712;
         z-index: 999;
         display: flex;
         justify-content: center;
@@ -1072,12 +973,12 @@
         position: absolute;
         right: 5%;
         top: 100%;
-        transform: translateY(-50%);
+        transform: translateY(-200%);
         width: 40px;
         height: 40px;
         background: var(--white);
-        border: 1px solid #f4efef;
-        color: #f4efef;
+        border: 1px solid #030712;
+        color: #030712;
         z-index: 999;
         display: flex;
         justify-content: center;
@@ -1086,73 +987,24 @@
     }
     
     /*================================== review_part end ==============================================*/
-    /*================================== form_part start ============================================*/
-    #form_part {
-        margin: 70px 0 70px;
-        padding: 60px 0 70px;
-    }
-    
-    #form_part .tittle h2 {
-        font-size: 25px;
-    }
-    
-    #form_part .tittle p {  
-        font-size: 14px;
-        line-height: 20px;
-        margin: 5px 0 0;
-    }
-    
-    #form_part form {
-        background: #ffffff;
-        display: flex;
-        flex-direction: column;
-        padding: 30px 20px;
-        border-radius: 10px;
-    }
-    
-    #form_part form input {
-        padding: 10px 15px;
-        margin: 5px 0 15px;
-    }
-    
-    #form_part form label {
-        font-size: 14px;
-        line-height: 20px;
-    }
-    
-    #form_part form .customBtn {
-        padding: 10px 0;
-        margin-top: 0;
-        border-radius: 4px;
-        font-size: 14px;
-        line-height: 20px;
-    }
-    
-    /*================================== form_part end ==============================================*/
     /*================================== footer_part start ============================================*/
     .container .row{
         row-gap: 20px;
     }
     
-    footer .footerLeft p {
-        margin-top: 10px;
-        font-size: 14px;
+    footer .text p {
+        text-align: center;
+        padding: 40px 60px;
+        font-size: 18px;
         line-height: 20px;
+        color: var(--peragaphColour);
     }
 
-    footer .footerRight {
-        gap: 0px;
-        justify-content: start;
-    }
-
-    footer .footerRight ul h3 {
-        font-size: 16px;
-        margin-bottom: 10px;
-    }
-
-    footer .footerRight ul li a {
+    footer .copy_part {
         font-size: 12px;
-        line-height: 20px;
+        line-height: 15px;
+        padding: 17px 0;
+        margin-top: 30px;
     }
 
     /*================================== footer_part end ==============================================*/
@@ -1240,173 +1092,110 @@
     }
     /*=================================== bannar_part end===============================================*/
     /*================================== success_part start ============================================*/
-    #success_part {
-        margin: 70px 0;
+    #about_part {
+        margin: 0 0;
         padding: 0 12px;
     }
     
-    #success_part .row .left h3 {
+    #about_part .tittle {
+        padding-top: 20px;
+    }
+    
+    #about_part .row .left h3 {
         font-size: 18px;
     }
     
-    #success_part .row .left h2 {
+    #about_part .row .left h2 {
         font-size: 25px;
     }
     
-    #success_part .row .right  {
+    #about_part .row .right  {
         flex-direction: row;
         gap: 20px;
     }
     
-    #success_part .row .right h2 {
+    #about_part .row .right h2 {
         font-size: 30px;
         margin-top: 15px;
         margin-bottom: 10px;
     }
     
-    #success_part .row .right .child {
+    #about_part .row .right .child {
         text-align: center;
     }
     
-    #success_part .row {
+    #about_part .row {
         padding: 40px 30px;
         border-radius: 10px;
     }
     
     /*================================== success_part end ==============================================*/
-    /*================================== service_part start ============================================*/
-    #service_part .tittle h2 {
-        font-size: 24px;
+    /*================================== skill_part start ============================================*/
+    #skill_part .tittle h2 {
+        font-size: 14px;
     }
     
-    #service_part .tittle p {
+    #skill_part .tittle p {
         font-size: 14px;
         line-height: 22px;
     }
     
-    #service_part .child {
+    #skill_part .child {
         padding: 40px 20px 30px;
         -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.25);
         -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.25);
         box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.25);
     }
     
-    #service_part .child h3 {
+    #skill_part .child h3 {
         font-size: 20px;
     }
     
-    #service_part .child p {
+    #skill_part .child p {
         font-size: 14px;
         line-height: 20px;
     }
     
 
-    /*================================== service_part end ==============================================*/
-    /*================================== recent_part start ============================================*/
-    #recent_part {
+    /*================================== skill_part end ==============================================*/
+    /*================================== experience_part start ============================================*/
+    #experience_part {
         padding: 60px 0;
     }
     
-    #recent_part .tittle h2 {
+    #experience_part .tittle h2 {
         font-size: 25px;
     }
     
-    #recent_part .child {
+    #experience_part .child {
         border-radius: 10px;
     }
     
     
-    #recent_part .tittle p {
+    #experience_part .tittle p {
         font-size: 14px;
         line-height: 21px;
     }
     
-    #recent_part .tittle p {
+    #experience_part .tittle p {
         margin-bottom: 50px;
     }
     
-    #recent_part .child img {
+    #experience_part .child img {
         height: 200px;
         border-radius: 10px;
     }
     
-    #recent_part .child h3 {
+    #experience_part .child h3 {
         font-size: 17px;
     }
     
-    #recent_part .child p {
+    #experience_part .child p {
         font-size: 14px;
         line-height: 20px;
     }
     
-    /*================================== recent_part end ==============================================*/
-    /*================================== agance_part start ============================================*/
-    #agance_part {
-        padding-top: 50px;
-        margin-bottom: 60px;
-    }
-    
-    #agance_part .tittle {
-        margin-bottom: 40px;
-    }
-    
-    #agance_part .tittle h2 {
-        font-size: 26px;
-    }
-    
-    #agance_part .tittle p {
-        font-size: 14px;
-        line-height: 22px;
-    }
-    
-    #agance_part .main .team {
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-        border-radius: 10px;
-    }
-
-    #agance_part .main .parent .row {
-        row-gap: 90px;
-    }
-    
-    #agance_part .child h3 {
-        margin: 10px 0 5px;
-        font-size: 17px;
-        color: white;
-    }
-    
-    #agance_part .child p {
-        font-size: 14px;
-        line-height: 20px;
-    }
-    
-    #agance_part .main .parent::after{
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.7);
-        z-index: -1;
-    }
-    
-    #agance_part .main .parent .child {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-    }
-    
-    #agance_part .main .parent .col-lg-6:nth-child(even) .child {
-        flex-direction: row-reverse;
-    }
-    
-    #agance_part .main .parent .col-lg-6:nth-child(even) .child .text{
-        text-align: right;
-    }
-    
-    /*================================== agance_part end ==============================================*/
+    /*================================== experience_part end ==============================================*/
     /*================================== review_part start ============================================*/
     #review_part .tittle h2 {
         font-size: 25px;
@@ -1441,8 +1230,8 @@
         width: 40px;
         height: 40px;
         background: var(--white);
-        border: 1px solid #f4efef;
-        color: #f4efef;
+        border: 1px solid #030712;
+        color: #030712;
         z-index: 999;
         display: flex;
         justify-content: center;
@@ -1458,8 +1247,8 @@
         width: 40px;
         height: 40px;
         background: var(--white);
-        border: 1px solid #f4efef;
-        color: #f4efef;
+        border: 1px solid #030712;
+        color: #030712;
         z-index: 999;
         display: flex;
         justify-content: center;
@@ -1468,73 +1257,16 @@
     }
     
     /*================================== review_part end ==============================================*/
-    /*================================== form_part start ============================================*/
-    #form_part {
-        margin: 70px 0 70px;
-        padding: 60px 0 70px;
-    }
-    
-    #form_part .tittle h2 {
-        font-size: 25px;
-    }
-    
-    #form_part .tittle p {  
-        font-size: 14px;
-        line-height: 20px;
-        margin: 5px 0 0;
-    }
-    
-    #form_part form {
-        background: #ffffff;
-        display: flex;
-        flex-direction: column;
-        padding: 30px 20px;
-        border-radius: 10px;
-    }
-    
-    #form_part form input {
-        padding: 10px 15px;
-        margin: 5px 0 15px;
-    }
-    
-    #form_part form label {
-        font-size: 14px;
-        line-height: 20px;
-    }
-    
-    #form_part form .customBtn {
-        padding: 10px 0;
-        margin-top: 0;
-        border-radius: 4px;
-        font-size: 14px;
-        line-height: 20px;
-    }
-    
-    /*================================== form_part end ==============================================*/
     /*================================== footer_part start ============================================*/
     .container .row{
         row-gap: 20px;
     }
-    
-    footer .footerLeft p {
-        margin-top: 10px;
-        font-size: 14px;
+
+    footer .copy_part {
+        font-size: 13px;
         line-height: 20px;
-    }
-
-    footer .footerRight {
-        gap: 0px;
-        justify-content: start;
-    }
-
-    footer .footerRight ul h3 {
-        font-size: 16px;
-        margin-bottom: 10px;
-    }
-
-    footer .footerRight ul li a {
-        font-size: 12px;
-        line-height: 20px;
+        padding: 20px 0;
+        margin-top: 40px;
     }
 
     /*================================== footer_part end ==============================================*/
